@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+   <title>Starting Webpage</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <img src="https://static.vecteezy.com/system/resources/previews/002/463/890/original/ethereum-logo-color-crypto-currency-symbol-isolated-vector.jpg" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="background-img">
+      <img src="https://d33wubrfki0l68.cloudfront.net/4b98f4a3c3259ea04adb9027358692a5a955f267/05acd/static/28214bb68eb5445dcb063a72535bc90c/f51a3/hero.png" class="logo-img">
+    </div>
+    <br><br>
+      <div class="background-text">
+        <div class="intro-1">
+        <br><br>
+        <h1>Welcome to Ethereum</h1>
+        <br>
+        <p>Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications. Ethereum is a decentralized blockchain platform that establishes a peer-to-peer network that securely executes and verifies application code, called smart contracts. Smart contracts allow participants to transact with each other without a trusted central authority</p>
+        <br>
+        <p>Transaction records are immutable, verifiable, and securely distributed across the network, giving participants full ownership and visibility into transaction data. Transactions are sent from and received by user-created Ethereum accounts. A sender must sign transactions and spend Ether, Ethereum's native cryptocurrency, as a cost of processing transactions on the network.</p>
+        <br><br><br><br>
+          <nav class="button">
+            <ul>
+              <li><a href="#">Explore Ethereum</a></li>
+          </ul>
+        </nav>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width:50px;
+  cursor: pointer;
+  margin: 30px 0; 
+  }
+  nav{
+    flex: 1;
+    text-align: right;
+  }
+
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size:15px;
+  }
+  nav ul li a:hover{
+    color: #0000FF;
+  }
+  .background-img img{
+    width: 100%;
+    height: auto;
+    padding: 200px auto;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .intro-1{
+    text-align: center;
+    color:#000000;
+    font-family: Verdana;
+  }
+
+  .button {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .button ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .button ul li a{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 22px;
+    width: 20px;
+    padding: 20px;
+  }
+  
+
+
+
