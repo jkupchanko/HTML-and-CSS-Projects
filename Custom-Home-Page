@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Web Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Hind+Siliguri:wght@300&family=Lora:ital@1&family=Nanum+Gothic&family=Noto+Sans:ital,wght@0,200;1,300&family=Poppins:wght@200&family=Prata&family=Raleway:wght@200&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class = 'container'>
+    <div class = 'item'>
+      <div class = 'child'>
+        <ul>
+          <li>BLOG DEMOS</li>
+          <li>LANDING DEMOS</li>
+          <li>MULTIPLE DEMOS</li>
+          <li>HOME</li>
+          <li class = 'left'>SOFTDASH</li>
+        </ul>
+        </div>
+      </div>
+      <div class ='container-1'>
+        <div class ='child-1'>
+          <h1>Soft Dash</h1>
+          <h2>Product & Sass HTML5 Landing & Multiple Template</h2>
+          <button type="button">Purchase</button>
+          <img class ='image' src = 'https://www.download-monitor.com/wp-content/uploads/2021/04/selling-digital-products-on-shopify-scaled.jpg'>
+        </div>
+      </div>
+      <div class="container-2">
+        <div class= 'child-2'>
+          <ul>
+          <li>FACEBOOK</li>
+          <li>TWITTER</li>
+          <li>CRAIGSLIST</li>
+          </ul>
+          </div>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+//CSS File
+
+body {
+  background: #000;
+  color: #fff;
+  padding: 25px;
+  font-family: sans-serif;
+}
+.container{
+  display: block-inline;
+  justify-content:center;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/07/scrolling-gradient.png?fit=1200%2C600&ssl=1');
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+.container .item {
+  padding: 35px 40px;
+}
+.container .item .child ul li{
+  float:right;
+  padding: 15px;
+  list-style-type: none; 
+  font-size: 17px;
+  cursor: pointer;
+}
+.container .item .child ul li:hover {
+  background-color: pink;
+}
+.container .item .child .left{
+  float:left;
+  border: 2px solid white;
+}
+.container .item .child .left:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+.container-1{
+  position: relative;
+  top: 200px;
+  right: -190px;
+  width: 600px;
+  height: auto;
+}
+.container-1 .child-1 h1{
+  font-size: 75px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.container-1 .child-1 h2{
+  position: absolute;
+  top: 90px;
+  font-size: 25px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.container-1 .child-1 button{
+  position: absolute;
+  top: 170px;
+  border-radius: 10px;
+  width: 220px;
+  height: 35px;
+  outline: 0;
+  border: none;
+  font-size: 18px;
+}
+
+.container-1 .child-1 button:hover {
+  background-color: pink;
+  cursor: pointer;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.container-1 .child-1 .image{
+  position: absolute;
+  top: -20px;
+  right: -900px;
+  width: 700px;
+  height: auto;
+  float: right;
+  outline: none;
+  border-radius: 20px;
+}
+
+.container-2{
+  position: absolute;
+  top: 740px;
+  right: 680px;
+
+}
+.container-2 .child-2 ul li{
+  display:inline-block;
+  padding: 25px;
+}
+
+.container-2 .child-2 ul li:hover{
+  background-color: pink;
+  cursor: pointer; 
+}
